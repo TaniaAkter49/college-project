@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    height: 500px;
+    width: 100%;
+    background-color: #c7c4c4;
+}
+
+.top-header {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.top-header p {
+    font-size: 25px;
+    color: white;
+}
+
+.top-header-ul ul {
+    display: flex;
+    gap: 30px;
+}
+
+.top-header-ul ul li {
+    list-style: none;
+}
+
+.top-header-ul ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.home-area {
+    display: flex;
+    margin-top: 30px;
+    width: 90%;
+    margin: auto;
+
+}
+
+.text {
+    width: 50%;
+
+    margin-top: 60px;
+    text-align: justify;
+
+}
+
+.text h1 {
+    line-height: 30px;
+
+}
+
+.text p {
+    margin-top: 20px;
+
+}
+
+.text button {
+    margin-top: 40px;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(11, 11, 103);
+    color: white;
+}
+
+.img {
+    width: 50%;
+    text-align: center;
+
+
+}
+
+.img img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    border: 3px solid rgb(37, 37, 97);
+}
+
+.service {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+
+
+}
+
+.s-h1 {
+    font-size: 30px;
+    padding: 20px;
+}
+
+.main-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.box {
+    width: 27%;
+    background-color: #f2f0f0;
+    height: 200px;
+    
+}
+
+.box i {
+    font-size: 40px;
+    padding: 10px;
+}
+
+.box h1 {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.service button {
+    margin-top: 40px;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: rgb(11, 11, 103);
+    color: white;
+
+}
+
+.about-area {
+    background-color: hsl(0, 3%, 77%);
+    margin-top: 20px;
+    height: 350px;
+}
+
+.about {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.about2 {
+    margin-top: 80px;
+}
+
+.about2 h1 {
+    font-size: 30px;
+
+}
+
+.about2 p {
+    margin-top: 15px;
+    font-size: 18px
+}
+
+.about2 button {
+    margin-top: 40px;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(11, 11, 103);
+    color: white;
+
+
+}
+
+.about-img img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+.blog{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+.blog h1{
+    font-size: 30px;
+    padding: 20px;
+}
+.main-blog-box{
+    display: flex;
+    gap: 20px;
+   
+}
+.blog-box{
+    height: 380px;
+    width: 50%;
+    text-align: center;
+    background-color: #dfdddd;
+
+}
+.blog-box h1{
+    padding: 10px;
+}
+.blog-box img{
+    width: 100%;
+    height: 250px;
+}
+.contact{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.form{
+    width: 50%;
+    
+}
+.form input{
+    width: 90%;
+    line-height: 40px;
+    
+}
+
+.map{
+
+    width: 50%;
+    
+}
+.map iframe{
+    height: 350px;
+}
